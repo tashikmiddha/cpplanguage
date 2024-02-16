@@ -8,8 +8,8 @@ int main()
     int reverse=0;
     while(n>0)
     {
-        int lastnum=n%10;// this give the last digit of that number
-        reverse =reverse*10 +lastnum; // from this we can reverse the number
+        int lastnum=n%10;
+        reverse =reverse*10 +lastnum; 
         n=n/10;
     }
     cout<<reverse<<endl;
